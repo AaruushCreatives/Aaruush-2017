@@ -522,7 +522,7 @@ function getRanking(){
         <li id="scorecard"><a id="getrank" onclick="getRanking()" data-toggle="modal" data-target="#modal3"><i class="material-icons">storage</i>Leaderboard</a></li>
         <li><a class="modal-trigger" href="#modal4"><i class="material-icons">card_giftcard</i>Incentives</a></li>
         <li><a class="modal-trigger" href="#modal6"><i class="material-icons">add_circle</i>Update Offline Progress</a></li>
-        <li><a class="modal-trigger" href="#modal4"><i class="material-icons">event</i>Organise Events</a></li>
+        <li><a class="modal-trigger" href="#modal5"><i class="material-icons">event</i>Organise Events</a></li>
         <li><a class="modal-trigger" href="#modal4"><i class="material-icons">contacts</i>Contact Us</a></li>
     </ul>
 <div id="fbloginout"><a href="javascript:void(0);" onclick="fbLogin()" id="fbLink" style="text-decoration:none;margin:auto;"><img src="images/fblogin.png" style="width:250px;"/></a></div>
@@ -572,6 +572,16 @@ function getRanking(){
   <br>Uday Mallikarjun:+91 98409 02494<br>
    <p>Email: <a href="mailto:creatives@aaruush.net" style="text-decoration:none;">creatives@aaruush.net</a></p>
 
+    </div>
+  </div>
+<div id="modal5" class="modal">
+    <div class="modal-content">
+      <h4><b>Work under-construction</b></h4>
+    </div>
+  </div>
+  <div id="modal5" class="modal">
+    <div class="modal-content">
+    
     </div>
   </div>
   <div id="modal6" class="modal">
