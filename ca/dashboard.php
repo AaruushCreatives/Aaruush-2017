@@ -499,7 +499,7 @@ function getRanking(){
             <a href="http://www.aaruush.net/" class="brand-logo center" id="aalink"><img src="images/aa18.png" id="aalogo"></a>
      <ul id="nav-mobile">
         <li class="menur"><a class="modal-trigger" href="#modal1"><i class="material-icons left">info</i>Guidelines</a></li>
-        <li class="menur"><a class="modal-trigger" href="#modal2"><i class="material-icons left">notifications</i>Notifications <span class="new badge">3</span></a></li>
+        <li class="menur"><a class="modal-trigger" href="#modal2"><i class="material-icons left">notifications</i>Notifications <span class="new badge">5</span></a></li>
       </ul>
       <ul id="drpdn">              <li id="dpdn"><a class="dropdown-button" href="#" id="dpdnid" data-constrainwidth="false" data-activates="dropdown1"><i class="material-icons right">arrow_drop_down</i></a></li>
 </ul>
@@ -520,7 +520,6 @@ function getRanking(){
     </div></li>
         <li><a href="#"><div id="leaderboard"></div></a></li>
         <li id="scorecard"><a id="getrank" onclick="getRanking()" data-toggle="modal" data-target="#modal3"><i class="material-icons">storage</i>Leaderboard</a></li>
-        <li><a class="modal-trigger" href="#modal4"><i class="material-icons">card_giftcard</i>Incentives</a></li>
         <li><a class="modal-trigger" href="#modal6"><i class="material-icons">add_circle</i>Update Offline Progress</a></li>
         <li><a class="modal-trigger" href="#modal5"><i class="material-icons">event</i>Organise Events</a></li>
         <li><a class="modal-trigger" href="#modal4"><i class="material-icons">contacts</i>Contact Us</a></li>
@@ -573,7 +572,7 @@ function getRanking(){
     </div>
 <div class="modal-body" id="lead">
 <p>Nishanth Buggineni: +91 96005 79880<br>
-Email: csi@aaruush.net</p>
+Email: <a href="mailto:csi@aaruush.net" style="text-decoration:none;">csi@aaruush.net</a></p>
   <br>Uday Mallikarjun:+91 98409 02494<br>
    <p>Email: <a href="mailto:creatives@aaruush.net" style="text-decoration:none;">creatives@aaruush.net</a></p>
 
@@ -584,11 +583,7 @@ Email: csi@aaruush.net</p>
       <h4><b>Work under-construction</b></h4>
     </div>
   </div>
-  <div id="modal5" class="modal">
-    <div class="modal-content">
-    
-    </div>
-  </div>
+  
   <div id="modal6" class="modal">
     <div class="modal-footer">
 
