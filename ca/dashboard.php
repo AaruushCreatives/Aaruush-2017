@@ -538,7 +538,10 @@ function getRanking(){
   <div id="modal2" class="modal">
     <div class="modal-content">
       <h4><b>Notifications</b></h4>
-      <p>1) You will recieve a confirmation mail after being selected as campus ambassador<br>2) You will be added in the whatsapp group<br>3) Your further tasks will be communicated via email or phone </p>
+      <p>1) You will recieve a confirmation mail after being selected as campus ambassador<br>2) You will be added in the whatsapp group<br>3) Your further tasks will be communicated via email or phone<br> 4) Offline work progress weightage is up to 30 points.<br>
+5) Offline work progress points will be updated weekly after verification.
+12:16 PM
+</p>
     </div>
   </div>
   <!-- The Modal -->
