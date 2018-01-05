@@ -569,6 +569,8 @@ function getRanking(){
 
     </div>
 <div class="modal-body" id="lead">
+<p>Nishanth Buggineni: +91 96005 79880<br>
+Email: csi@aaruush.net</p>
   <br>Uday Mallikarjun:+91 98409 02494<br>
    <p>Email: <a href="mailto:creatives@aaruush.net" style="text-decoration:none;">creatives@aaruush.net</a></p>
 
