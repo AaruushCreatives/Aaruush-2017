@@ -1,0 +1,437 @@
+
+/*
+    ================================
+                SETUP
+    ================================
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    box-shadow: none;
+    outline: none;
+}
+
+.clearfix{zoom: 1;}
+.clearfix:after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 18px;
+    line-height: 1.5;
+    color: floralwhite;
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+body{
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)),url(../img/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.main{
+    padding: 0 30px;
+    position: relative;
+    min-height: 100%;
+}
+
+/*
+    ================================
+        MODULE 0: MAIN CONTAINER
+    ================================
+*/
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.container .message{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/*
+    -----------------------
+        Header and Text
+    -----------------------
+*/
+.container .message .logo img{
+    max-width: 500px;
+    width: 98%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.container .message .message-title{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container .message .message-title p{
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.container .message .message-body {
+    text-align: center;
+}
+
+.container .message .message-body p{
+    font-weight: 300;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/*
+    -----------------------
+        Newsletter
+    -----------------------
+*/
+
+.container .newsletter-wrapper .newsletter {
+    display: block;
+    margin: 20px auto;
+    max-width: 400px;
+    opacity: 0.4;
+}
+
+.container .newsletter-wrapper .newsletter input {
+    font: 0.9rem "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 200;
+    padding: 15px;
+}
+
+.container .newsletter-wrapper .newsletter .newsletter-email {
+    display: inline-block;
+    width: 100%;
+    padding-right: 58px;
+}
+
+.container .newsletter-wrapper .newsletter .newsletter-submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.3;
+    pointer-events: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0.5s;
+}
+
+.container .newsletter-wrapper .newsletter .newsletter-email:valid + .newsletter-submit {
+    opacity: 1;
+    pointer-events: auto;
+    color: #fff;
+    background-color: #4CD964;
+
+}
+
+/*
+    -----------------------
+        Countdown
+    -----------------------
+*/
+
+.container .countdown-wrapper{
+    display: block;
+    margin: 30px auto 0 auto;
+    max-width: 800px;
+}
+
+.container .countdown-wrapper .countdown-text{
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 2;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    text-align: center;
+
+    background: -webkit-linear-gradient(#1d8cd0, #33ed89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container .countdown-wrapper .countdown{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.container .countdown-wrapper .countdown .cd-row div{
+    padding: 5px 40px;
+    text-transform: uppercase;
+    font-weight: 300;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 2;
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+.separator{
+    border-right: 1px floralwhite solid;
+}
+
+.separator-hour{
+    border-right: 1px floralwhite solid;
+}
+
+.container .countdown-wrapper .countdown .cd-row div span{
+    display: block;
+    font-size: 2.5rem;
+
+}
+
+.cd-span-1-of-4{
+    width: 24.5%;
+    display: inline-block;
+}
+
+#cd-days{
+    background: -webkit-linear-gradient(#1d8cd0, #33ed89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#cd-hours{
+    background: -webkit-linear-gradient(#1d8cd0, #33ed89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#cd-mins{
+    background: -webkit-linear-gradient(#1d8cd0, #33ed89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#cd-secs{
+    background: -webkit-linear-gradient(#1d8cd0, #33ed89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*
+    ================================
+        MODULE 1: SOCIAL LINKS
+    ================================
+*/
+
+.social{
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    width: 30px;
+}
+
+
+.social ul li{
+    display: inline-block;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 10px;
+    transition: background-color 0.2s;
+}
+
+
+
+.social ul li .social-icon{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    text-decoration: none;
+}
+.social ul li .social-icon .card{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    text-decoration: none;
+    background-image: url("../img/icon1.png");
+}
+.social ul li .social-icon .card:hover{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    text-decoration: none;
+    background-image: url("../img/icon2.png");
+}
+
+
+.social ul li .social-icon i{
+    font-size: 1.2rem;
+    color: black;
+    margin: auto;
+    display: table;
+    transition: color 0.2s;
+}
+
+.social ul li:hover .social-icon i{
+    color: whitesmoke;
+}
+
+.social ul .social-fb:hover{
+    background-color: #3b5999;
+}
+
+.social ul .social-tw:hover{
+    background-color: #55acee;
+}
+
+.social ul .social-ig:hover{
+    background-color: #e4405f;
+}
+
+.social ul .social-ln:hover{
+    background-color: #0077B5;
+}
+
+.social ul .social-yt:hover{
+    background-color: #cd201f;
+}
+
+/*
+    ================================
+        MODULE 2: AARUUSH CREATIVES
+    ================================
+*/
+
+.ac{
+    width: 95%;
+    text-align: right;
+    padding-bottom: 10px;
+    position: fixed;
+    bottom: 15px;
+
+}
+
+.ac img{
+    width: 200px;
+    height: auto;
+}
+
+/*
+    ================================
+    ================================
+            MEDIA QUERIES
+    ================================
+    ================================
+*/
+
+@media only screen and (max-width: 900px) {
+    .social{
+        width: 220px;
+        position: inherit;
+        display: inline-block;
+    }
+
+    .social ul li{
+        margin-right: 2px;
+    }
+
+    .ac{
+        position: static;
+        width: 30%;
+        float: right;
+        padding-right: 10px;
+    }
+}
+@media only screen and (max-width: 760px) {
+    .container .countdown-wrapper .countdown .cd-row div{
+        margin-top: 10px;
+    }
+
+    .separator-hour{
+        border-right: none !important;
+    }
+
+    .cd-span-1-of-4{
+        width: 49%;
+    }
+
+    .social ul li .social-icon{
+        width: 30px;
+        height: 30px;
+    }
+
+    .social ul li .social-icon i{
+        font-size: 1rem;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 635px) {
+    .social{
+        position: static;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    .ac{
+        width: 70%;
+        float: none;
+        margin: 0 auto;
+        margin-top: 2px;
+        text-align: center;
+    }
+
+    .container .countdown-wrapper .countdown .cd-row div span{
+        font-size: 2.2rem;
+    }
+
+}
+
+@media only screen and (max-width: 464px) {
+    .container .message .message-title p{
+        font-size: 2rem;
+    }
+
+    .container .message .message-body p{
+        font-size: 0.8rem;
+    }
+    .container .newsletter-wrapper .newsletter input {
+        font-size: 0.8rem;
+    }
+    .container .countdown-wrapper .countdown-text{
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container .message .message-title p{
+        font-size: 1.7rem;
+    }
+
+    .container .message .message-body p{
+        font-size: 0.6rem;
+    }
+    .container .newsletter-wrapper .newsletter input {
+        font-size: 0.6rem;
+    }
+    .container .countdown-wrapper .countdown-text{
+        font-size: 0.9rem;
+    }
+}
