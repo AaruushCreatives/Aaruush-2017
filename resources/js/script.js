@@ -8,7 +8,7 @@
 var availableDate = new Date();
 //set eg "Aug 13 2018 10:30:00" CHANGE ACCORDINGLY
 availableDate.setDate(4);
-availableDate.setMonth(9); //January has index 0!!!
+availableDate.setMonth(8); //January has index 0!!!
 availableDate.setFullYear(2018);
 availableDate.setHours(16);
 availableDate.setMinutes(00); //January has index 0!!!
